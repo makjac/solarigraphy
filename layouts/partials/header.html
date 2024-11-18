@@ -1,4 +1,13 @@
 <header>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZR4LR53VY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-VZR4LR53VY');
+  </script>
   {{ with .Parent }}
   <a class="btn btn-square" href="{{ .RelPermalink | default .Site.Home.RelPermalink }}" title="{{ .Title }}">
     <svg width="24" height="24" data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
