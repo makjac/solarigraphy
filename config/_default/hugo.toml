@@ -9,11 +9,11 @@ title = "Solarigraphy"
 
 [params]
   defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  description = "The Art of Solarigraphy by Maksymilian ackowski"
+  title = "Light Chronicles"
   [params.author]
-    email = "user@example.com"
-    name = "Your Name"
+    email = "maks.jackowski@proton.me"
+    name = "Maksymilian Jackowski"
   [params.socialIcons]
     facebook = "https://www.facebook.com/people/Jackgraphy/100088813895659/?locale=hi_IN"
     github = "https://github.com/makjac"

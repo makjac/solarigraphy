@@ -1,7 +1,7 @@
 ---
-# description: An example site for hugo-theme-gallery. Images from Unsplash.
-# lastmod: 2023-07-05
-title: Maksymilian Gallery
+description: The Art of Solarigraphy by Maksymilian Jackowski
+lastmod: 2024-11-18
+title: Light Chronicles
 featured_image: pz_poczta_art.jpg # default: first image in this directory
 # featured_image on the home page is used for OpenGraph cards, etc.
 menus:
