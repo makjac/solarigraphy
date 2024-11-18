@@ -1,0 +1,48 @@
+copyright = "© 2024 Maksymilian Jackowski"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+languageCode = "en"
+timeZone = "Europe/Warsaw"
+timeout = "120s"
+title = "Solarigraphy"
+
+[params]
+  defaultTheme = "dark"
+  description = "Example site for hugo-theme-gallery"
+  title = "My Gallery"
+  [params.author]
+    email = "user@example.com"
+    name = "Your Name"
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/people/Jackgraphy/100088813895659/?locale=hi_IN"
+    github = "https://github.com/makjac"
+    email = "mailto:maks.jackowski@proton.me"
+    #website = "https://example.com"
+  [params.gallery]
+    #boxSpacing = 10
+    #targetRowHeight = 288
+    #targetRowHeightTolerance = 0.25
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/makjac"
+    weight = 3
+
+[services]
+  [services.rss]
+    limit = 100
