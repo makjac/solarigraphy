@@ -4,6 +4,7 @@ featured_image: pz_zamek.jpg
 keywords: [Poznań, 2024, 2023]
 title: Poznań
 featured: true
+private: true
 weight: 1
 menus: "main"
 ---
